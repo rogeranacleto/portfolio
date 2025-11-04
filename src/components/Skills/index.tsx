@@ -17,10 +17,10 @@ export function Skills(){
     return(
         <div className="max-w-screen w-full flex justify-center min-h-200 mt-50">
             <div className='w-full flex flex-col items-center'>
-                <div>
-                    <h1 className="text-white text-5xl font-bold mb-4">Tecnologias que utilizo</h1>
+                <div className='flex flex-col items-center justify-center'>
+                    <h1 className="text-white text-5xl font-bold mb-4 m-auto">Tecnologias que utilizo</h1>
                     <div className="h-0.5 w-120 bg-linear-to-r from-transparent via-white/95 to-transparent mx-auto"></div>
-                    <p className='text-[#c2bebee3] mt-5 text-lg'>Conheça as tecnologias que utilizo para o desenvolvimento.</p>
+                    <p className='text-[#c2bebee3] mt-5 text-lg'>Conheça as tecnologias que utilizo no processo de desenvolvimento.</p>
                 </div>
                 <div className='mt-15 w-full max-w-[1200px] flex flex-wrap gap-10 justify-center'>
                     <div className='relative group'>
