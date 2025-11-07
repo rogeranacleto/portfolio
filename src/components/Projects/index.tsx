@@ -18,15 +18,17 @@ export function Projects() {
     <div>
       <div className="flex flex-col mt-15">
         <div className="flex flex-col items-center">
-          <h1 className="text-white text-5xl font-bold mb-3">Projetos</h1>
-          <div className="h-0.5 w-56 bg-linear-to-r from-transparent via-white/95 to-transparent mx-auto" />
+          <h1 className="text-5xl font-bold mb-3 text-white">
+            Projetos
+          </h1>
+          <div className="h-0.5 w-56 bg-linear-to-r from-transparent via-[#3f00ac] to-transparent mx-auto" />
           <p className="text-[#c2bebee3] mt-4 text-lg">Alguns projetos que desenvolvi.</p>
         </div>
         <div className="flex flex-wrap items-start justify-center gap-6 mt-15">
           {projects.map((p, i) => (
             <article
               key={i}
-              className="max-w-[30rem] w-full block relative bg-transparent p-4 rounded-2xl"
+              className="max-w-120 w-full block relative bg-transparent p-6 rounded-2xl hover:scale-110 duration-300 ease-in-out hover:bg-[#e6e3e309]"
             >
               <img src={p.img} alt={`Imagem ${p.title}`} className="rounded-3xl w-full object-cover" />
               <div className="mt-5">
@@ -75,7 +77,7 @@ export function Projects() {
                 <div className="flex gap-4 items-center">
                   <a
                     href="#"
-                    className="text-sm text-white flex items-center gap-2 bg-[#3a0097] pl-3.5 pr-3.5 pt-1 pb-1 rounded-lg transform transition-transform duration-300 hover:scale-110"
+                    className="text-sm text-white flex items-center gap-2 bg-[#3f00ac] pl-3.5 pr-3.5 pt-1 pb-1 rounded-lg transform transition-transform duration-300 hover:scale-110"
                   >
                     <FiExternalLink className="text-2xl" />
                     <p>Ver Projeto</p>
