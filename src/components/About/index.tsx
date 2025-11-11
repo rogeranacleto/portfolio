@@ -15,7 +15,7 @@ export function About(){
                     <p className="text-[#c2bebee3] mt-4 text-lg">Saiba mais sobre mim e minha carreira profissional.</p>
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-10 mt-15">
+            <div className="flex items-center justify-center gap-10 mt-15 flex-wrap m-8">
                 <div className="max-w-180 w-full min-h-150 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg p-10">
                     <h1 className="text-white font-bold text-3xl">Quem sou eu?</h1>
                     <p className="text-[#c2bebee3] mt-7 text-lg text-left">
@@ -37,34 +37,34 @@ export function About(){
                     <div className="flex flex-col gap-6">
                         <div className="flex gap-5">
                             <div>
-                                <FaComputer className="text-[#c2bebee3]"size={25}/>
+                                <FaComputer className="text-[#3f00ac]"size={25}/>
                             </div>
                             <div className="flex gap-5">
-                                <p className="text-[#c2bebee3] text-lg">Criação de interfaces web modernas com <span className="text-[#dad8d8] font-bold">ReactJS</span>, <span className="text-[#dad8d8] font-bold">JavaScript</span>, <span className="text-[#dad8d8] font-bold">TypeScript</span>, <span className="text-[#dad8d8] font-bold">Tailwind CSS</span>, <span className="text-[#dad8d8] font-bold">NextsJS </span>e <span className="text-[#dad8d8] font-bold">NodeJS</span>.</p>
+                                <p className="text-[#c2bebee3] text-lg">Criação de interfaces web modernas com <span className="text-[#3f00ac] font-bold">ReactJS</span>, <span className="text-[#3f00ac] font-bold">JavaScript</span>, <span className="text-[#3f00ac] font-bold">TypeScript</span>, <span className="text-[#3f00ac] font-bold">Tailwind CSS</span>, <span className="text-[#3f00ac] font-bold">NextsJS </span>e <span className="text-[#3f00ac] font-bold">NodeJS</span>.</p>
                             </div>
                         </div>
                         <div className="flex gap-5">
                             <div>
-                                <LuCable className="text-[#c2bebee3]"size={25}/>
+                                <LuCable className="text-[#3f00ac]"size={25}/>
                             </div>
                             <div className="flex gap-5">
-                                <p className="text-[#c2bebee3] text-lg">Integrações com <span className="text-[#dad8d8] font-bold">APIs RESTful</span> e gerenciamento de dados, automatizando tarefas e conectando diferentes serviços.</p>
+                                <p className="text-[#c2bebee3] text-lg">Integrações com <span className="text-[#3f00ac] font-bold">APIs RESTful</span> e gerenciamento de dados, automatizando tarefas e conectando diferentes serviços.</p>
                             </div>
                         </div>
                         <div className="flex gap-5">
                             <div>
-                                <FaCode className="text-[#c2bebee3]"size={25}/>
+                                <FaCode className="text-[#3f00ac]"size={25}/>
                             </div>
                             <div className="flex gap-5">
-                                <p className="text-[#c2bebee3] text-lg">Desenvolvimento de aplicações <span className="font-bold text-[#dad8d8]">interativas</span> e <span className="font-bold text-[#dad8d8]">dinâmicas</span>, fornecendo uma boa experiência ao usuário.</p>
+                                <p className="text-[#c2bebee3] text-lg">Desenvolvimento de aplicações <span className="font-bold text-[#3f00ac]">interativas</span> e <span className="font-bold text-[#3f00ac]">dinâmicas</span>, fornecendo uma boa experiência ao usuário.</p>
                             </div>
                         </div>
                         <div className="flex gap-5">
                             <div>
-                                <RiLightbulbFlashLine className="text-[#c2bebee3]"size={25}/>
+                                <RiLightbulbFlashLine className="text-[#3f00ac]"size={25}/>
                             </div>
                             <div className="flex gap-5">
-                                <p className="text-[#c2bebee3] text-lg">Aplicação de boas práticas de <span className="font-bold text-[#dad8d8]">usabilidade</span>, <span className="font-bold text-[#dad8d8]">performance</span> e <span className="font-bold text-[#dad8d8]">manutenção de código</span>, focando em qualidade e escalabilidade.</p>
+                                <p className="text-[#c2bebee3] text-lg">Aplicação de boas práticas de <span className="font-bold text-[#3f00ac]">usabilidade</span>, <span className="font-bold text-[#3f00ac]">performance</span> e <span className="font-bold text-[#3f00ac]">manutenção de código</span>, focando em qualidade e escalabilidade.</p>
                             </div>
                         </div>
                     </div>
