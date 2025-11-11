@@ -19,7 +19,7 @@ export function Hero(){
                         <span
                             className="
                             absolute inset-0
-                            bg-linear-to-r from-[#3f00ac] via-[#3700964d] to-[#3f00ac3b]
+                            bg-linear-to-r from-[#c2bebec5] via-[#c2bebe6c] to-[#c2bebe2a]
                             -translate-x-full group-hover:translate-x-full
                             transition-transform duration-700
                             rounded-lg
@@ -34,7 +34,7 @@ export function Hero(){
                             text-white
                             pt-3 pb-3 px-5
                             transition-all duration-500
-                            group-hover:border-[#3f00ac] group-hover:text-[#3f00ac] hover:font-bold
+                            group-hover:border-[#c2bebee3] group-hover:text-[#c2bebee3] hover:font-bold
                             block
                             "
                         >
