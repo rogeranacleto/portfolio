@@ -28,7 +28,7 @@ export function Projects() {
           {projects.map((p, i) => (
             <article
               key={i}
-              className="max-w-120 w-full block relative bg-transparent p-6 rounded-2xl hover:scale-110 duration-300 ease-in-out hover:bg-[#e6e3e309]"
+              className="max-w-120 w-full block relative bg-transparent p-6 rounded-2xl hover:scale-110 duration-300 ease-in-out hover:bg-[#3f00ac3d]"
             >
               <img src={p.img} alt={`Imagem ${p.title}`} className="rounded-3xl w-full object-cover" />
               <div className="mt-5">
