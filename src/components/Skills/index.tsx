@@ -122,7 +122,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#v]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
                             <img src={logoCss} alt="Logo CSS" className="w-20" />
                         </div>
                         <span className="
