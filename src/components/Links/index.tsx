@@ -7,7 +7,7 @@ export function Links(){
             <div className="flex gap-3 mt-4 items-center">
                 <div className="relative group">
                     <a href="https://github.com/rogeranacleto" target="_blank">
-                        <PiGithubLogo className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-[#3f00ac]"/>
+                        <PiGithubLogo className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold"/>
                     </a>
                     <span className="
                         absolute bottom-full left-1/2 -translate-x-1/2 mb-2
@@ -20,7 +20,7 @@ export function Links(){
                 </div>
                 <div className="relative group">
                     <a href="https://www.linkedin.com/in/rogeranacleto/" target="_blank">
-                        <PiLinkedinLogoLight className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer mt-1 hover:text-[#3f00ac]"/>
+                        <PiLinkedinLogoLight className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer mt-1 hover:text-white hover:font-bold"/>
                     </a>
                     <span className="
                         absolute bottom-full left-1/2 -translate-x-1/2 mb-2
@@ -32,7 +32,7 @@ export function Links(){
                     </span>
                 </div>
                 <div className="relative group">
-                    <CiFileOn className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-[#3f00ac]"/>
+                    <CiFileOn className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold"/>
                     <span className="
                         absolute bottom-full left-1/2 -translate-x-1/2 mb-2
                         opacity-0 group-hover:opacity-100
