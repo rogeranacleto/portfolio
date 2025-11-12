@@ -19,12 +19,12 @@ export function Skills(){
             <div className='w-full flex flex-col items-center'>
                 <div className='flex flex-col items-center justify-center'>
                     <h1 className="text-5xl font-bold mb-3 text-white">Tecnologias que utilizo</h1>
-                    <div className="h-0.5 w-120 bg-linear-to-r from-transparent via-[#3f00ac] to-transparent mx-auto"></div>
+                    <div className="h-1 w-120 bg-linear-to-r from-transparent via-white to-transparent mx-auto"></div>
                     <p className='text-[#c2bebee3] mt-5 text-lg'>Conheça as tecnologias que utilizo no processo de desenvolvimento.</p>
                 </div>
                 <div className='mt-15 w-full max-w-[1200px] flex flex-wrap gap-10 justify-center'>
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoJavaScript} alt="Logo JavaScript" className="w-20" />
                         </div>
                         <span className="
@@ -38,7 +38,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoTypescript} alt="Logo TypeScript" className="w-20" />
                         </div>
                         <span className="
@@ -52,7 +52,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoReact} alt="Logo ReactJS" className="w-20" />
                         </div>
                         <span className="
@@ -66,7 +66,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoNext} alt="Logo NextJS" className="w-20" />
                         </div>
                         <span className="
@@ -80,7 +80,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoTailwind} alt="Logo Tailwind CSS" className="w-20" />
                         </div>
                         <span className="
@@ -94,7 +94,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoNode} alt="Logo NodeJS" className="w-20" />
                         </div>
                         <span className="
@@ -108,7 +108,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoHtml} alt="Logo HTML" className="w-20" />
                         </div>
                         <span className="
@@ -122,7 +122,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoCss} alt="Logo CSS" className="w-20" />
                         </div>
                         <span className="
@@ -136,7 +136,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoGit} alt="Logo Git" className="w-20" />
                         </div>
                         <span className="
@@ -150,7 +150,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoGithub} alt="Logo GitHub" className="w-20" />
                         </div>
                         <span className="
@@ -164,7 +164,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoFigma} alt="Logo Figma" className="w-20" />
                         </div>
                         <span className="
@@ -178,7 +178,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#v]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoVite} alt="Logo Vite" className="w-20" />
                         </div>
                         <span className="
@@ -192,7 +192,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoPostgresql} alt="Logo PostgreSQL" className="w-20" />
                         </div>
                         <span className="
@@ -206,7 +206,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoLinux} alt="Logo Linux" className="w-20" />
                         </div>
                         <span className="
@@ -220,7 +220,7 @@ export function Skills(){
                     </div>
 
                     <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_4px_10px_#3f00ac] hover:shadow-[0_4px_20px_#3f00ac]">
+                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
                             <img src={logoFirebase} alt="Logo Firebase" className="w-20" />
                         </div>
                         <span className="
