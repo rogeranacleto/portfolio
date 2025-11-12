@@ -9,7 +9,39 @@ export function Notfound(){
                   404 - Page Not Found
                 </h1>
                 <Link to={"/"}>
-                    <button className="backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg text-white pt-3 pb-3 pl-5 pr-5 cursor-pointer">Voltar ao início</button>
+                    <button
+                        className="
+                            relative mt-5 cursor-pointer
+                            overflow-hidden  /* <-- impede o vazamento do gradiente */
+                            rounded-lg
+                            group
+                        "
+                        >
+                            <span
+                                className="
+                                absolute inset-0
+                                bg-linear-to-r from-[#c2bebec5] via-[#c2bebe6c] to-[#c2bebe2a]
+                                -translate-x-full group-hover:translate-x-full
+                                transition-transform duration-700
+                                rounded-lg
+                                "
+                            ></span>
+                            <span
+                                className="
+                                relative z-10
+                                backdrop-blur-xs
+                                border border-solid border-[#c2bebe15]
+                                rounded-lg
+                                text-white
+                                pt-3 pb-3 px-5
+                                transition-all duration-500
+                                group-hover:border-[#c2bebee3] group-hover:text-[#c2bebee3] hover:font-bold
+                                block
+                                "
+                            >
+                                Voltar ao início
+                            </span>
+                        </button>
                 </Link>
             </div>
         </div>
