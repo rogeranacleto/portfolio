@@ -1,6 +1,8 @@
 import { PiGithubLogo } from "react-icons/pi";
 import { PiLinkedinLogoLight } from "react-icons/pi";
 import { CiFileOn } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
+
 export function Links(){
     return(
         <div>
@@ -29,6 +31,17 @@ export function Links(){
                         bg-black text-white text-sm px-2 py-1 rounded-lg
                         whitespace-nowrap z-10">
                         LinkedIn
+                    </span>
+                </div>
+                <div className="relative group">
+                    <FaWhatsapp className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold"/>
+                    <span className="
+                        absolute bottom-full left-1/2 -translate-x-1/2 mb-2
+                        opacity-0 group-hover:opacity-100
+                        transition-opacity duration-300
+                        bg-black text-white text-sm px-2 py-1 rounded-lg
+                        whitespace-nowrap z-10">
+                        WhatsApp
                     </span>
                 </div>
                 <div className="relative group">
