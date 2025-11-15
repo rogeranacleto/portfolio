@@ -11,7 +11,7 @@ export function Hero(){
                         <button
                         className="
                             relative mt-5 cursor-pointer
-                            overflow-hidden  /* <-- impede o vazamento do gradiente */
+                            overflow-hidden
                             rounded-lg
                             group
                         "
@@ -32,10 +32,10 @@ export function Hero(){
                             border border-solid border-[#c2bebe15]
                             rounded-lg
                             text-white
-                            pt-3 pb-3 px-5
+                            pt-3 pb-3 px-10
                             transition-all duration-500
                             group-hover:border-[#c2bebee3] group-hover:text-[#c2bebee3] hover:font-bold
-                            block
+                            block text-lg
                             "
                         >
                             Sobre mim
