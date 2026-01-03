@@ -1,240 +1,278 @@
-import logoJavaScript from '../../assets/logo-javascript.png';
-import logoTypescript from '../../assets/logo-typescript.png';
-import logoReact from '../../assets/logo-react.png';
-import logoNext from '../../assets/logo-next.png';
-import logoTailwind from '../../assets/logo-tailwind.png';
-import logoNode from '../../assets/logo-node.png';
-import logoHtml from '../../assets/logo-html.png';
-import logoCss from '../../assets/logo-css.png';
-import logoGit from '../../assets/logo-git.png';
-import logoGithub from '../../assets/logo-github.png';
-import logoFigma from '../../assets/logo-figma.png';
-import logoVite from '../../assets/logo-vite.png';
-import logoPostgresql from '../../assets/logo-postgres.png';
-import logoLinux from '../../assets/logo-linux.png';
-import logoFirebase from '../../assets/logo-firebase.png';
-export function Skills(){
-    return(
-        <div className="max-w-screen w-full flex justify-center min-h-200 mt-50">
-            <div className='w-full flex flex-col items-center'>
-                <div className='flex flex-col items-center justify-center'>
-                    <h1 className="text-5xl font-bold mb-3 text-white">Tecnologias que utilizo</h1>
-                    <div className="h-1 w-120 bg-linear-to-r from-transparent via-white to-transparent mx-auto"></div>
-                    <p className='text-[#c2bebee3] mt-5 text-lg'>Conheça as tecnologias que utilizo no processo de desenvolvimento.</p>
-                </div>
-                <div className='mt-15 w-full max-w-[1200px] flex flex-wrap gap-10 justify-center'>
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoJavaScript} alt="Logo JavaScript" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            JavaScript
-                        </span>
-                    </div>
+import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
+import { IoLogoReact } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io5";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoFigma } from "react-icons/io5";
+import { SiVite } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaLinux } from "react-icons/fa6";
+import { IoLogoFirebase } from "react-icons/io5";
 
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoTypescript} alt="Logo TypeScript" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            TypeScript
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoReact} alt="Logo ReactJS" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            ReactJS
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoNext} alt="Logo NextJS" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            NextJS
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoTailwind} alt="Logo Tailwind CSS" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Tailwind CSS
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoNode} alt="Logo NodeJS" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            NodeJS
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoHtml} alt="Logo HTML" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            HTML
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoCss} alt="Logo CSS" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            CSS
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoGit} alt="Logo Git" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Git
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoGithub} alt="Logo GitHub" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            GitHub
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoFigma} alt="Logo Figma" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Figma
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoVite} alt="Logo Vite" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Vite
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoPostgresql} alt="Logo PostgreSQL" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            PostgreSQL
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoLinux} alt="Logo Linux" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Linux
-                        </span>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-lg flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
-                            <img src={logoFirebase} alt="Logo Firebase" className="w-20" />
-                        </div>
-                        <span className="
-                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
-                            opacity-0 group-hover:opacity-100
-                            transition-opacity duration-300
-                            bg-black text-white text-sm px-2 py-1 rounded-lg
-                            whitespace-nowrap z-10">
-                            Firebase
-                        </span>
-                    </div>
-
-                </div>
-            </div>
+export function Skills() {
+  return (
+    <div className="max-w-screen w-full mb-110 flex justify-center pl-10 pr-10">
+      <div className="w-full flex flex-col items-center">
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5">
+            <h1 className="text-sm font-medium text-white pl-4 pr-4 pt-2 pb-2">
+              Tecnologias
+            </h1>
+          </div>
+          <div className="flex items-center justify-center flex-col mb-8 pl-10 pr-10">
+            <p className="text-white mt-4 text-6xl font-medium max-w-5xl text-center mb-4">
+              Tecnologias que utilizo no <br /> processo de desenvolvimento
+            </p>
+            <div className="h-1 max-w-150 w-full bg-linear-to-r from-transparent via-white to-transparent mx-auto mt-5"></div>
+          </div>
         </div>
-    )
+        <div className="mt-15 w-full max-w-[1200px] flex flex-wrap gap-10 justify-center">
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoJavascript className="text-white text-5xl" />
+            </div>
+            <span
+              className="
+                absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                opacity-0 group-hover:opacity-100
+                transition-opacity duration-300
+                bg-black text-white text-sm px-2 py-1 rounded-lg
+                whitespace-nowrap z-10"
+            >
+              JavaScript
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <BiLogoTypescript className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              TypeScript
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoReact className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              ReactJS
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <SiNextdotjs className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              NextJS
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <SiTailwindcss className="text-white text-5xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Tailwind CSS
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoNodejs className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              NodeJS
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <FaHtml5 className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              HTML
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoCss3 className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              CSS
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <FaGitAlt className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Git
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <FaGithub className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              GitHub
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoFigma className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Figma
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <SiVite className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Vite
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <BiLogoPostgresql className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              PostgreSQL
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <FaLinux className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Linux
+            </span>
+          </div>
+
+          <div className="relative group">
+            <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
+              <IoLogoFirebase className="text-white text-6xl" />
+            </div>
+            <span
+              className="
+                            absolute bottom-full left-1/2 -translate-x-1/2 mb-3.5
+                            opacity-0 group-hover:opacity-100
+                            transition-opacity duration-300
+                            bg-black text-white text-sm px-2 py-1 rounded-lg
+                            whitespace-nowrap z-10"
+            >
+              Firebase
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
