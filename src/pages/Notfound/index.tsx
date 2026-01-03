@@ -5,14 +5,14 @@ export function Notfound(){
         <div>
             <SpaceBackground/>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-8      ">
-                <h1 className="text-6xl font-bold text-white">
+                <h1 className="text-6xl font-medium text-white">
                   404 - Page Not Found
                 </h1>
                 <Link to={"/"}>
                     <button
                         className="
                             relative mt-5 cursor-pointer
-                            overflow-hidden  /* <-- impede o vazamento do gradiente */
+                            overflow-hidden
                             rounded-lg
                             group
                         "
