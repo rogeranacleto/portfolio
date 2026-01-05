@@ -16,7 +16,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 export function Skills() {
   return (
-    <div className="max-w-screen w-full mb-110 flex justify-center pl-10 pr-10">
+    <div className="max-w-screen w-full mb-80 flex justify-center pl-10 pr-10">
       <div className="w-full flex flex-col items-center">
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5">
