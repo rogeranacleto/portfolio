@@ -19,7 +19,7 @@ export function About(){
           </div>
         </div>
         <div className="flex items-center justify-center gap-10 mt-15 flex-wrap m-8 flex-col">
-          <div className="max-w-250 w-full h- backdrop-blur-xs bg-white rounded-2xl p-10 z-50">
+          <div className="max-w-250 w-full bg-white rounded-2xl p-10">
             <h1 className="text-black font-medium text-3xl">Quem sou eu?</h1>
             <p className="text-black mt-7 text-lg text-left">
               Sou Roger Anacleto da Silva,{" "}
