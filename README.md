@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../portfolio/screenshots/hero-section.png" alt="Preview do Portfólio - Roger Anacleto" />
-</p>
-
 <h1 align="center">Roger Anacleto da Silva</h1>
 <h3 align="center">Desenvolvedor Front End</h3>
 
