@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa6";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 export function About(){
     return (
-      <div className="min-h-screen flex justify-center max-w-screen w-full flex-col mb-100" id="about">
+      <div className="min-h-screen flex justify-center max-w-screen w-full flex-col mb-75" id="about">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5">
             <h1 className="text-sm font-medium text-white pl-4 pr-4 pt-2 pb-2">
@@ -19,12 +19,12 @@ export function About(){
           </div>
         </div>
         <div className="flex items-center justify-center gap-10 mt-15 flex-wrap m-8 flex-col">
-          <div className="max-w-250 w-full h- backdrop-blur-xs bg-white rounded-2xl p-10">
+          <div className="max-w-250 w-full h- backdrop-blur-xs bg-white rounded-2xl p-10 z-50">
             <h1 className="text-black font-medium text-3xl">Quem sou eu?</h1>
             <p className="text-black mt-7 text-lg text-left">
               Sou Roger Anacleto da Silva,{" "}
               <span className="font-bold text-black">
-                Desenvolvedor Front-End
+                Desenvolvedor Front End
               </span>{" "}
               com formação em andamento em Análise e Desenvolvimento de Sistemas
               (ADS). Atuo no desenvolvimento de interfaces web e procuro aliar boas
@@ -62,11 +62,9 @@ export function About(){
                       Desenvolvo interfaces web com {" "}
                       <span className="text-white font-bold">ReactJS</span>,{" "}
                       <span className="text-white font-bold">JavaScript</span>,{" "}
-                      <span className="text-white font-bold">TypeScript</span>,{" "}
-                      <span className="text-white font-bold">Tailwind CSS</span>
-                      , <span className="text-white font-bold">NextJS</span> e
-                      <span className="text-white font-bold"> NodeJS</span>,
-                      criando experiências visuais atraentes e funcionais para
+                      <span className="text-white font-bold">TypeScript </span>e
+                      <span className="text-white font-bold"> Tailwind CSS </span>
+                       criando experiências visuais atraentes e funcionais para
                       todos os dispositivos.
                     </p>
                   </div>
