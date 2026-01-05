@@ -60,7 +60,7 @@ export function Links(){
             </a>
           </div>
           <div className="relative group">
-            <a href="/curriculo-rogeranacleto.pdf">
+            <a href="/curriculo-rogeranacleto.pdf" target="_blank">
               <CiFileOn className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold" />
               <span
                 className="
