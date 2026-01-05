@@ -60,17 +60,19 @@ export function Links(){
             </a>
           </div>
           <div className="relative group">
-            <CiFileOn className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold" />
-            <span
-              className="
-                        absolute bottom-full left-1/2 -translate-x-1/2 mb-2
-                        opacity-0 group-hover:opacity-100
-                        transition-opacity duration-300
-                        bg-black text-white text-sm px-2 py-1 rounded-lg
-                        whitespace-nowrap z-10"
-            >
-              Baixar Currículo
-            </span>
+            <a href="/curriculo-rogeranacleto.pdf">
+              <CiFileOn className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold" />
+              <span
+                className="
+                          absolute bottom-full left-1/2 -translate-x-1/2 mb-2
+                          opacity-0 group-hover:opacity-100
+                          transition-opacity duration-300
+                          bg-black text-white text-sm px-2 py-1 rounded-lg
+                          whitespace-nowrap z-10"
+              >
+                Baixar Currículo
+              </span>
+            </a>
           </div>
         </div>
       </div>
