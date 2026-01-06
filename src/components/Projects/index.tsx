@@ -10,7 +10,9 @@ import expedixCard from "../../assets/expedix-card.png";
 import hamburgueriaCard from "../../assets/hamburgueria-card.png";
 import prevsystemCard from "../../assets/prevsystem-card.png";
 import rota360Card from "../../assets/rota360-card.png";
-
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 const projectsCards = [
   {
     title: "DataCerta",
@@ -109,17 +111,32 @@ const projectsCards = [
 ];
 
 export function Projects() {
+    useEffect(() => {
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 50,
+      });
+    }, []);
   return (
     <div className="max-w-screen min-h-screen mb-80">
       <div className="flex flex-col">
         <div className="flex flex-col items-center">
-          <div className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5">
+          <div
+            className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <h1 className="text-sm font-medium text-white px-4 py-2">
               Projetos
             </h1>
           </div>
 
-          <div className="flex items-center justify-center flex-col px-10">
+          <div
+            className="flex items-center justify-center flex-col px-10"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <p className="text-white mt-4 text-6xl font-medium max-w-2xl text-center mb-4">
               Alguns projetos que já desenvolvi
             </p>
@@ -128,66 +145,68 @@ export function Projects() {
         </div>
         <div className="flex flex-wrap items-start justify-center gap-6 mt-15">
           {projectsCards.map((project, index) => (
-            <article
-              key={index}
-              className="max-w-120 w-full relative bg-transparent p-6 rounded-2xl hover:scale-110 duration-300 ease-in-out hover:backdrop-blur-sm hover:border hover:border-solid hover:border-[#ffffff86]"
-            >
-              <img
-                src={project.img}
-                alt={`Imagem ${project.title}`}
-                className="rounded-3xl w-full object-cover"
-              />
-
-              <div className="mt-5">
-                <h2 className="font-bold text-white text-2xl mb-3">
-                  {project.title}
-                </h2>
-                <p className="text-[#c2bebefa]">{project.description}</p>
-              </div>
-              <div className="flex items-center justify-between mt-5">
-                <div className="flex items-center">
-                  {Object.entries(project.skills[0]).map(([name, Icon], indice) => (
-                    <div key={indice} className="relative group">
-                      <div className="border border-solid border-[#c2bebe59] rounded-full p-2 bg-black transition-transform duration-300 group-hover:scale-125">
-                        <Icon className="text-white text-lg" />
-                      </div>
-                      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-sm rounded-lg whitespace-nowrap capitalize z-50">
-                        {name}
-                      </span>
-                    </div>
-                  ))}
+            <div data-aos="fade-right" data-aos-duration="2800">
+              <article
+                key={index}
+                className="max-w-120 w-full relative bg-transparent p-6 rounded-2xl hover:scale-110 duration-300 ease-in-out hover:backdrop-blur-sm hover:border hover:border-solid hover:border-[#ffffff86]"
+              >
+                <img
+                  src={project.img}
+                  alt={`Imagem ${project.title}`}
+                  className="rounded-3xl w-full object-cover"
+                />
+                <div className="mt-5">
+                  <h2 className="font-bold text-white text-2xl mb-3">
+                    {project.title}
+                  </h2>
+                  <p className="text-[#c2bebefa]">{project.description}</p>
                 </div>
-                <div className="flex gap-4 items-center">
-                  {project.liveUrl && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-black flex items-center gap-2 bg-white px-3.5 py-1 rounded-lg transition-transform duration-300 hover:scale-110"
-                    >
-                      <FiExternalLink className="text-2xl" />
-                      Ver Projeto
-                    </a>
-                  )}
-
-                  {project.repoUrl && (
-                    <div className="relative group border border-solid border-[#c2bebe15] rounded-lg text-white px-2 py-1 transition-transform duration-300 hover:scale-110">
+                <div className="flex items-center justify-between mt-5">
+                  <div className="flex items-center">
+                    {Object.entries(project.skills[0]).map(
+                      ([name, Icon], indice) => (
+                        <div key={indice} className="relative group">
+                          <div className="border border-solid border-[#c2bebe59] rounded-full p-2 bg-black transition-transform duration-300 group-hover:scale-125">
+                            <Icon className="text-white text-lg" />
+                          </div>
+                          <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-sm rounded-lg whitespace-nowrap capitalize z-50">
+                            {name}
+                          </span>
+                        </div>
+                      )
+                    )}
+                  </div>
+                  <div className="flex gap-4 items-center">
+                    {project.liveUrl && (
                       <a
-                        href={project.repoUrl}
+                        href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="GitHub"
+                        className="text-sm text-black flex items-center gap-2 bg-white px-3.5 py-1 rounded-lg transition-transform duration-300 hover:scale-110"
                       >
-                        <PiGithubLogo className="text-white text-2xl cursor-pointer" />
+                        <FiExternalLink className="text-2xl" />
+                        Ver Projeto
                       </a>
-                      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-sm px-2 py-1 rounded-lg whitespace-nowrap z-50">
-                        Ver repositório
-                      </span>
-                    </div>
-                  )}
+                    )}
+                    {project.repoUrl && (
+                      <div className="relative group border border-solid border-[#c2bebe15] rounded-lg text-white px-2 py-1 transition-transform duration-300 hover:scale-110">
+                        <a
+                          href={project.repoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="GitHub"
+                        >
+                          <PiGithubLogo className="text-white text-2xl cursor-pointer" />
+                        </a>
+                        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-black text-white text-sm px-2 py-1 rounded-lg whitespace-nowrap z-50">
+                          Ver repositório
+                        </span>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </div>
           ))}
         </div>
       </div>
