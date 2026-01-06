@@ -19,12 +19,20 @@ export function Skills() {
     <div className="max-w-screen w-full mb-80 flex justify-center pl-10 pr-10">
       <div className="w-full flex flex-col items-center">
         <div className="flex flex-col items-center justify-center">
-          <div className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5">
+          <div
+            className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             <h1 className="text-sm font-medium text-white pl-4 pr-4 pt-2 pb-2">
               Tecnologias
             </h1>
           </div>
-          <div className="flex items-center justify-center flex-col mb-8 pl-10 pr-10">
+          <div
+            className="flex items-center justify-center flex-col mb-8 pl-10 pr-10"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             <p className="text-white mt-4 text-6xl font-medium max-w-5xl text-center mb-4">
               Tecnologias que utilizo no <br /> processo de desenvolvimento
             </p>
@@ -32,7 +40,11 @@ export function Skills() {
           </div>
         </div>
         <div className="mt-15 w-full max-w-[1200px] flex flex-wrap gap-10 justify-center">
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoJavascript className="text-white text-5xl" />
             </div>
@@ -48,7 +60,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="1600"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <BiLogoTypescript className="text-white text-6xl" />
             </div>
@@ -64,7 +80,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="1700"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoReact className="text-white text-6xl" />
             </div>
@@ -80,7 +100,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="1800"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <SiNextdotjs className="text-white text-6xl" />
             </div>
@@ -96,7 +120,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="1900"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <SiTailwindcss className="text-white text-5xl" />
             </div>
@@ -112,7 +140,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoNodejs className="text-white text-6xl" />
             </div>
@@ -128,7 +160,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2100"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <FaHtml5 className="text-white text-6xl" />
             </div>
@@ -144,7 +180,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2200"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoCss3 className="text-white text-6xl" />
             </div>
@@ -160,7 +200,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2300"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <FaGitAlt className="text-white text-6xl" />
             </div>
@@ -176,7 +220,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2400"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <FaGithub className="text-white text-6xl" />
             </div>
@@ -192,7 +240,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2500"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoFigma className="text-white text-6xl" />
             </div>
@@ -208,7 +260,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2600"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <SiVite className="text-white text-6xl" />
             </div>
@@ -224,7 +280,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2700"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <BiLogoPostgresql className="text-white text-6xl" />
             </div>
@@ -240,7 +300,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2800"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <FaLinux className="text-white text-6xl" />
             </div>
@@ -256,7 +320,11 @@ export function Skills() {
             </span>
           </div>
 
-          <div className="relative group">
+          <div
+            className="relative group"
+            data-aos="fade-left"
+            data-aos-duration="2900"
+          >
             <div className="w-30 h-30 backdrop-blur-xs border border-solid border-[#c2bebe15] rounded-full flex items-center justify-center hover:scale-110 duration-300 shadow-[0_1px_10px_#fff] hover:shadow-[0_4px_20px_#fff]">
               <IoLogoFirebase className="text-white text-6xl" />
             </div>
