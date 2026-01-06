@@ -10,19 +10,31 @@ export function Footer(){
           <div className="h-px w-1/2 bg-linear-to-l from-white to-transparent rounded-full"></div>
         </div>
         <div className="flex flex-col items-center justify-center mt-15 pl-10 pr-10">
-          <h2 className="text-white text-5xl font-medium text-center mb-5">
+          <h2
+            className="text-white text-5xl font-medium text-center mb-5"
+            data-aos="fade-up"
+            data-aos-duration="2400"
+          >
             Vamos conversar?
           </h2>
-          <p className="text-[#c2bebee3] text-lg mt-4 mb-5 text-center">
+          <p
+            className="text-[#c2bebee3] text-lg mt-4 mb-5 text-center"
+            data-aos="fade-up"
+            data-aos-duration="2400"
+          >
             Estou aberto a novas oportunidades e desafios. Vamos conversar e
             descobrir como podemos criar resultado juntos?
           </p>
           <Links />
-          <div className="h-px max-w-150 w-full bg-linear-to-r from-transparent via-white to-transparent mx-auto mt-10"></div>
+          <div
+            className="h-px max-w-150 w-full bg-linear-to-r from-transparent via-white to-transparent mx-auto mt-10"
+            data-aos="fade-up"
+            data-aos-duration="2400"
+          ></div>
           <div
             className="absolute bottom-2 flex items-center flex-col"
-            data-aos="fade-left"
-            data-aos-duration="2300"
+            data-aos="fade-up"
+            data-aos-duration="2400"
           >
             <p className="text-white font-bold text-center">
               Desenvolvido por Roger Anacleto • © 2025 Todos os direitos
