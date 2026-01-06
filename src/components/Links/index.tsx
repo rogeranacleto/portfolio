@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export function Links(){
     return (
       <div>
-        <div className="flex gap-3 mt-4 items-center">
+        <div className="flex gap-3 mt-4 items-center" data-aos="fade-up" data-aos-duration="2400">
           <div className="relative group">
             <a href="https://github.com/rogeranacleto" target="_blank">
               <PiGithubLogo className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer hover:text-white hover:font-bold" />
