@@ -7,14 +7,32 @@ function scrollToSection(id: string) {
     return (
       <div className="relative min-h-screen flex items-center justify-center">
         <div className="pl-10 pr-10">
-          <p className="text-white text-2xl text-start">Olá, meu nome é</p>
-          <h1 className="text-7xl font-medium bg-linear-to-r from-white to-[#ffffff13] bg-clip-text text-transparent inline-block tracking-tight leading-tight text-center">
+          <p
+            className="text-white text-2xl text-start"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Olá, meu nome é
+          </p>
+          <h1
+            className="text-7xl font-medium bg-linear-to-r from-white to-[#ffffff13] bg-clip-text text-transparent inline-block tracking-tight leading-tight text-center"
+            data-aos="fade-up"
+            data-aos-duration="2800"
+          >
             Roger Anacleto da Silva
           </h1>
           <div className="flex flex-col items-center justify-center">
-            <p className="text-white text-2xl mt-2">Desenvolvedor Front End</p>
+            <p
+              className="text-white text-2xl mt-2"
+              data-aos="fade-up"
+              data-aos-duration="2600"
+            >
+              Desenvolvedor Front End
+            </p>
             <Links />
             <button
+              data-aos="fade-up"
+              data-aos-duration="2200"
               className="
                             relative mt-5 cursor-pointer
                             overflow-hidden
