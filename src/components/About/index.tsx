@@ -24,7 +24,7 @@ export function About(){
               data-aos="fade-left"
               data-aos-duration="2800"
             >
-              Saiba um pouco mais sobre mim e o que eu desenvolvo
+              Saiba mais sobre mim e o que eu desenvolvo
             </p>
             <div
               className="h-1 max-w-150 w-full bg-linear-to-r from-transparent via-white to-transparent mx-auto mt-5"
