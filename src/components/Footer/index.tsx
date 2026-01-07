@@ -4,7 +4,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export function Footer(){
     return (
-      <div className="min-h-140 bg-black  pt-20 pb-40 flex flex-col justify-center relative">
+      <div className="min-h-120 bg-black  pt-20 pb-40 flex flex-col justify-center relative">
         <div className="absolute top-0 left-0 w-full flex justify-between items-start">
           <div className="h-px w-1/2 bg-linear-to-r from-white to-transparent rounded-full"></div>
           <div className="h-px w-1/2 bg-linear-to-l from-white to-transparent rounded-full"></div>
@@ -33,7 +33,7 @@ export function Footer(){
           ></div>
           <div
             className="absolute bottom-2 flex items-center flex-col"
-            data-aos="fade-up"
+            data-aos="fade-left"
             data-aos-duration="2400"
           >
             <p className="text-white font-bold text-center">
