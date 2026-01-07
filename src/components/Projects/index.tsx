@@ -120,7 +120,7 @@ export function Projects() {
     }, []);
   return (
     <div className="max-w-screen min-h-screen mb-80">
-      <div className="flex flex-col">
+      <div className="flex flex-col pl-50 pr-50">
         <div className="flex flex-col items-center">
           <div
             className="flex flex-col items-center border border-solid border-black rounded-3xl bg-[#c2bebe15] max-w-30 mb-5"
