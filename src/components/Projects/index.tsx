@@ -10,6 +10,7 @@ import expedixCard from "../../assets/expedix-card.png";
 import hamburgueriaCard from "../../assets/hamburgueria-card.png";
 import prevsystemCard from "../../assets/prevsystem-card.png";
 import rota360Card from "../../assets/rota360-card.png";
+import beautyBookCard from "../../assets/beautybook-card.png"
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -47,22 +48,6 @@ const projectsCards = [
     img: prevsystemCard,
   },
   {
-    title: "Expedix",
-    description:
-      "Plataforma desenvolvida para otimizar a logística de expedição, centralizando informações sobre retiradas, responsáveis, datas e status das operações. Conta com autenticação, registro e gerenciamento completo de expedições, filtros de pesquisa, histórico de operações e uma landing page institucional.",
-    skills: [
-      {
-        TypeScript: BiLogoTypescript,
-        ReactJS: IoLogoReact,
-        Firebase: IoLogoFirebase,
-        TailwindCSS: RiTailwindCssFill,
-      },
-    ],
-    liveUrl: "https://expedix.vercel.app/",
-    repoUrl: "https://github.com/rogeranacleto/expedix",
-    img: expedixCard,
-  },
-  {
     title: "Rota360",
     description:
       "Plataforma para controle de veículos e deslocamentos, com gerenciamento de frota, acompanhamento de viagens e indicadores em tempo real. Inclui cadastro de veículos, histórico de viagens e regras de negócio para garantir a integridade operacional.",
@@ -77,6 +62,38 @@ const projectsCards = [
     liveUrl: "https://rota360.vercel.app/",
     repoUrl: "https://github.com/rogeranacleto/rota360-app",
     img: rota360Card,
+  },
+    {
+    title: "BeautyBook",
+    description:
+      "Plataforma desenvolvida para profissionais da área da beleza, focada no cadastro de clientes e no gerenciamento de agendamentos e atendimentos. Centraliza informações de clientes, procedimentos, datas, valores e status, contando com autenticação, dashboard informativo, controle de atendimentos em tempo real e histórico de serviços finalizados.",
+    skills: [
+      {
+        TypeScript: BiLogoTypescript,
+        ReactJS: IoLogoReact,
+        Firebase: IoLogoFirebase,
+        TailwindCSS: RiTailwindCssFill,
+      },
+    ],
+    liveUrl: "https://beautybook-app.vercel.app/",
+    repoUrl: "https://github.com/rogeranacleto/beautybook-app",
+    img: beautyBookCard,
+  },
+  {
+    title: "Expedix",
+    description:
+      "Plataforma desenvolvida para otimizar a logística de expedição, centralizando informações sobre retiradas, responsáveis, datas e status das operações. Conta com autenticação, registro e gerenciamento completo de expedições, filtros de pesquisa, histórico de operações e uma landing page institucional.",
+    skills: [
+      {
+        TypeScript: BiLogoTypescript,
+        ReactJS: IoLogoReact,
+        Firebase: IoLogoFirebase,
+        TailwindCSS: RiTailwindCssFill,
+      },
+    ],
+    liveUrl: "https://expedix.vercel.app/",
+    repoUrl: "https://github.com/rogeranacleto/expedix",
+    img: expedixCard,
   },
   {
     title: "Cardápio Hamburgueria",
