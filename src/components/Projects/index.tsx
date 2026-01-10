@@ -18,7 +18,7 @@ const projectsCards = [
   {
     title: "DataCerta",
     description:
-      "Projeto desenvolvido para controle de vencimentos, permitindo o cadastro de produtos e a visualização automática do status de validade com base na data atual. Conta com autenticação, área administrativa, filtros inteligentes e uma landing page institucional.",
+      "Projeto desenvolvido para controle de vencimento de produtos, permitindo o cadastro de produtos e a visualização automática do status de validade com base na data atual. Conta com autenticação, área administrativa, filtros inteligentes e uma landing page institucional.",
     skills: [
       {
         TypeScript: BiLogoTypescript,
@@ -66,7 +66,7 @@ const projectsCards = [
     {
     title: "BeautyBook",
     description:
-      "Plataforma desenvolvida para profissionais da área da beleza, focada no cadastro de clientes e no gerenciamento de agendamentos e atendimentos. Centraliza informações de clientes, procedimentos, datas, valores e status, contando com autenticação, dashboard informativo, controle de atendimentos em tempo real e histórico de serviços finalizados.",
+      "Plataforma para profissionais da área de estética e beleza, focada no cadastro de clientes e no gerenciamento de agendamentos. Centraliza informações de procedimentos, datas, valores e status, com autenticação, dashboard informativo, controle de atendimentos em tempo real e histórico de serviços finalizados.",
     skills: [
       {
         TypeScript: BiLogoTypescript,
@@ -98,7 +98,7 @@ const projectsCards = [
   {
     title: "Cardápio Hamburgueria",
     description:
-      "Cardápio online desenvolvido para uma hamburgueria, permitindo a visualização dos produtos e a montagem do pedido de forma simples e intuitiva. Conta com listagem de itens, carrinho de compras e integração com WhatsApp para envio automático do pedido.",
+      "Cardápio online para hamburguerias, permitindo a visualização dos produtos e a montagem do pedido de forma simples e intuitiva. Conta com listagem de itens, carrinho de compras e integração com WhatsApp para envio automático do pedido.",
     skills: [
       {
         HTML: FaHtml5,
