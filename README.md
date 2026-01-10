@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://rogeranacleto.vercel.app/">Portfólio</a> •
-  <a href="https://www.linkedin.com/in/rogeranacleto/">LinkedIn</a> •
-  <a href="https://github.com/rogeranacleto">GitHub</a>
+  <a href="https://rogeranacleto.vercel.app/" target="_blank">Portfólio</a> •
+  <a href="https://www.linkedin.com/in/rogeranacleto/" target="_blank">LinkedIn</a> •
+  <a href="https://github.com/rogeranacleto" target="_blank">GitHub</a>
 </p>
 
 ---
@@ -54,10 +54,4 @@ Alguns projetos que fazem parte do meu portfólio:
 
 ## 📫 Contato
 
-[Portfólio](https://rogeranacleto.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/rogeranacleto/) | [GitHub](https://github.com/rogeranacleto)
-
----
-
-<p align="center">
-  Desenvolvido por Roger Anacleto © 2025
-</p>
+<a href="https://rogeranacleto.vercel.app/" target="_blank">Portfólio</a> | <a href="https://www.linkedin.com/in/rogeranacleto/" target="_blank">LinkedIn</a> | <a href="https://github.com/rogeranacleto" target="_blank">GitHub</a>
