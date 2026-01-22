@@ -24,7 +24,7 @@ export function Links(){
           </div>
           <div className="relative group">
             <a
-              href="https://www.linkedin.com/in/rogeranacleto/"
+              href="https://www.linkedin.com/in/ranacleto/"
               target="_blank"
             >
               <PiLinkedinLogoLight className="text-white text-3xl hover:scale-120 duration-300 cursor-pointer mt-1 hover:text-white hover:font-bold" />
